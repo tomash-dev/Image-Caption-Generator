@@ -84,13 +84,13 @@ Required libraries for Python along with their version numbers used while making
 
 | Image | Caption |
 | :---: | :--- |
-| <img width="50%" src="https://github.com/dabasajay/Image-Caption-Generator/raw/master/test_data/bikestunt.jpg" alt="Image 1"> | <ul><li><strong>Argmax:</strong> A man in a blue shirt is riding a bike on a dirt path.</li><li><strong>BEAM Search, k=3:</strong> A man is riding a bicycle on a dirt path.</li></ul>|
-| <img src="https://github.com/dabasajay/Image-Caption-Generator/raw/master/test_data/surfing.jpeg" alt="Image 2"> | <ul><li><strong>Argmax:</strong> A man in a red kayak is riding down a waterfall.</li><li><strong>BEAM Search, k=3:</strong> A man on a surfboard is riding a wave.</li></ul>|
+| <img width="50%" src="https://github.com/tomash-dev/Image-Caption-Generator/raw/master/test_data/bikestunt.jpg" alt="Image 1"> | <ul><li><strong>Argmax:</strong> A man in a blue shirt is riding a bike on a dirt path.</li><li><strong>BEAM Search, k=3:</strong> A man is riding a bicycle on a dirt path.</li></ul>|
+| <img src="https://github.com/tomash-dev/Image-Caption-Generator/raw/master/test_data/surfing.jpeg" alt="Image 2"> | <ul><li><strong>Argmax:</strong> A man in a red kayak is riding down a waterfall.</li><li><strong>BEAM Search, k=3:</strong> A man on a surfboard is riding a wave.</li></ul>|
 
 ## 4. Procedure to Train Model
 
 1. Clone the repository to preserve directory structure.<br>
-`git clone https://github.com/dabasajay/Image-Caption-Generator.git`
+`git clone https://github.com/tomash-dev/Image-Caption-Generator.git`
 2. Put the required dataset files in `train_val_data` folder (files mentioned in readme there).
 3. Review `config.py` for paths and other configurations (explained below).
 4. Run `train_val.py`.
@@ -98,7 +98,7 @@ Required libraries for Python along with their version numbers used while making
 ## 5. Procedure to Test on new images
 
 1. Clone the repository to preserve directory structure.<br>
-`git clone https://github.com/dabasajay/Image-Caption-Generator.git`
+`git clone https://github.com/tomash-dev/Image-Caption-Generator.git`
 2. Train the model to generate required files in `model_data` folder (steps given above).
 3. Put the test images in `test_data` folder.
 4. Review `config.py` for paths and other configurations (explained below).
